@@ -15,7 +15,7 @@ def get_rate(first_path, second_path):
     second_text = to_text(second_path).lower().split(" ")  # The list of second sentence
     score = jaccard_similarity(first_text, second_text)  # Get score
     print('-'*50)
-    print(f'Similarity score: {score}\n')
+    print(f'Similarity score: {score*100}% \n')
 
 if __name__ == '__main__':
     first_path = sys.argv[1]
