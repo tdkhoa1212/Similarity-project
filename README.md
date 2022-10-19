@@ -11,5 +11,6 @@
 
 ## Run commands
     %cd Similarity-project
+    pip install -r requirements.txt
     python python similar_rate.py "the first .wav file path" "the second .wav file path"
 
