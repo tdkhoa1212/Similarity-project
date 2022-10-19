@@ -8,7 +8,7 @@ def to_text(path):
         audio_file = r.record(source)
     try:
         # using google speech recognition
-        text = r.recognize_google(audio_file)
+        text = r.recognize_google(audio_file) # text output from the audio file
         print('Converting audio transcripts into text ...\n')
     except:
         print('Sorry.. run again...\n')

@@ -9,7 +9,7 @@
 (https://newscatcherapi.com/blog/ultimate-guide-to-text-similarity-with-python)
     - Example: ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/matric.png)
 
-## Commands
+## Run commands
     %cd Similarity-project
     python python similar_rate.py "the first .wav file path" "the second .wav file path"
 
