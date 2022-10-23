@@ -10,7 +10,13 @@
     - Example: ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/matric.png)
 
 ## Run commands
-    %cd Similarity-project
     pip install -r requirements.txt
-    python python similar_rate.py "the first .wav file path" "the second .wav file path"
+
+- Case 1
+    %cd Similarity-project/case_1
+    python similar_rate.py "the first .wav file path" "the second .wav file path"
+
+- Case 2
+    %cd Similarity-project/case_2
+    python plot_extraction.py "the first .wav file path" "the second .wav file path" "the saving path of the demonstration photo"
 
