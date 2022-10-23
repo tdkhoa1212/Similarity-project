@@ -12,13 +12,11 @@
 ## Run commands
     pip install -r requirements.txt
 
-- Case 1
-
+Case 1
     %cd Similarity-project/case_1
     python similar_rate.py "the first .wav file path" "the second .wav file path"
 
-- Case 2
-
+Case 2
     %cd Similarity-project/case_2
     python plot_extraction.py "the first .wav file path" "the second .wav file path" "the saving path of the demonstration photo"
 
