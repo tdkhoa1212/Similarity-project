@@ -11,7 +11,7 @@
     - Example: ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/matric.png)
 
 #### Case 2
-[alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/similarity.png)
+![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/similarity.png)
 
 ## Run commands
     pip install -r requirements.txt
