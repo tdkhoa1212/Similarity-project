@@ -3,11 +3,15 @@
 ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/diagram.png)
 
 ## Description
+#### Case 1
 - In the phase 1: audio files are converted to texts
     - Example: apple_and_lemon.wav transformed to "apple and lemon"
 - In the phase 2: Jaccard similarity method is used to score the similarity between two texts
 (https://newscatcherapi.com/blog/ultimate-guide-to-text-similarity-with-python)
     - Example: ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/matric.png)
+
+#### Case 2
+[alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/similarity.png)
 
 ## Run commands
     pip install -r requirements.txt
