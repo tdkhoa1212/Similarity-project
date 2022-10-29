@@ -11,11 +11,8 @@ def spectrogram(filename):
     '''
     sample_rate, x = wavfile.read(filename) 
     Twx, Wx, *_ = ssq_cwt(x) 
-    f, t, Sxx = signal.spectrogram(x, sample_rate)  
-    x_out = abs(Sxx)
-    # a, b = x_out.shape 
-    # print(x_out.shape)
-    # x_out = x_out.reshape(b, a)
+    x_out = abs(Wx)
+    print(x_out.shape)
     return x_out
     
 def PCA_transform(filename):

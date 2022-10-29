@@ -4,9 +4,9 @@ from PCA import PCA_transform
 
 @click.command()
 # ******************************Enter your expected information *****************************
-@click.option('--filename1', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/Matthew_Male/apple_and_lemon.wav', help='direction of .wav input file')
-@click.option('--filename2', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/Matthew_Male/lemon_and_apple.wav', help='direction of .wav input file')
-@click.option('--savefile', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/images/new3.png', help='direction of .wav output file')
+@click.option('--filename1', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/Matthew_Male/lemon_and_apple.wav', help='direction of .wav input file')
+@click.option('--filename2', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/Matthew_Male/orange_and_lemon.wav', help='direction of .wav input file')
+@click.option('--savefile', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/images/Wx_same.png', help='direction of .wav output file')
 def plot(filename1, filename2, savefile):
     pca1 = PCA_transform(filename1)
     pca2 = PCA_transform(filename2)
