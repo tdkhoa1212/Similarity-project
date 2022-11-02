@@ -12,7 +12,6 @@ def plot(filename, savefile):
     # Spectrogram and PCA outputs--------------------------
     C, sample_rate = spectrogram(filename)
     y = PCA_transform(filename)
-    print(max(y))
 
     # Get name---------------------------------------------
     name = filename.split('/')[-1].split('.')[0]
