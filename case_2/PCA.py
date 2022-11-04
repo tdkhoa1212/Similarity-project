@@ -15,8 +15,7 @@ def spectrogram(x, sample_rate):
 def PCA_transform(x, sample_rate):
     # transform the vector to a matric
     C = spectrogram(x, sample_rate)
-    name = filename.split('/')[-1]
-    print(f'\nSpectrogram C shape of {name} file: {C.shape} in (frequency, time)')
+    # print(f'\nSpectrogram C shape: {C.shape} in (frequency, time)')
 
     # reduce dimension of matric by PCA
     pca = PCA(n_components=1, svd_solver='arpack')
