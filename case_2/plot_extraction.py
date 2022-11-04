@@ -10,8 +10,9 @@ from PCA import spectrogram, PCA_transform
 @click.option('--savefile', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/images/440hz.png', help='direction of .wav output file')
 def plot(filename, savefile):
     # Spectrogram and PCA outputs--------------------------
-    C, sample_rate = spectrogram(filename)
-    y = PCA_transform(filename)
+    x, sample_rate = librosa.load(path)
+    C = spectrogram(x, sample_rate)
+    y = PCA_transform(x, sample_rate)
 
     # Get name---------------------------------------------
     name = filename.split('/')[-1].split('.')[0]
