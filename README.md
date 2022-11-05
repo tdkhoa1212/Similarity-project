@@ -37,6 +37,15 @@
     python similar_rate.py "the first .wav file path" "the second .wav file path"
 
 #### Case 2
+**Plot spectrogram**
     %cd Similarity-project/case_2
     python plot_extraction.py "the first .wav file path" "the second .wav file path" "the saving path of the demonstration photo"
+
+**Tone output**
+    %cd Similarity-project/case_2
+    python main.py ./train_wav ./test_wav/"test file" 0.2
+
+./train_wav: Direction of the .wav train folder \
+./test_wav/"test file": Direction of a .wav test file \
+0.2: Time of cut segments in test audio \
 

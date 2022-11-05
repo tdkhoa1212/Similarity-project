@@ -5,7 +5,7 @@ from get_data import get_test_data, get_train_data
 
 @click.command()
 # ******************************Enter your expected information *****************************
-@click.option('--train_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/train_wav', help='direction of .wav train file')
+@click.option('--train_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/train_wav', help='direction of .wav train folder')
 @click.option('--test_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/test_wav/600_640_700_08.wav', help='direction of .wav test file')
 @click.option('--cutting_time', default=0.2, type=float, help='time of cut segments in test audio.')
 def compare(train_path, test_path, cutting_time):
