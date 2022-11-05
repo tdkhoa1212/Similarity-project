@@ -12,19 +12,19 @@
 
 #### input
 ##### Train data: 
-Path: ./wav/train_wav/
+Path: ./wav/train_wav/ \
 Constrain: 
-    - only one certain Frequency
-    - Amplitude: 0.8
-    - length: > 1s
+    - only one certain Frequency \
+    - Amplitude: 0.8 \
+    - length: > 1s \
 
 ##### Test data:
-Path: ./wav/test_wav/
-Constrain: 
-    - any frequencies in train data
-    - Amplitude: any
-    - length of tones: any
-    - length of silence: more than cutting_time in Parameter (can be 0.2)
+Path: ./wav/test_wav/ \
+Constrain:  \
+    - any frequencies in train data \
+    - Amplitude: any \
+    - length of tones: any \
+    - length of silence: more than cutting_time in Parameter (can be 0.2) \
 
 
 ## Run commands
