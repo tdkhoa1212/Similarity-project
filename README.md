@@ -1,5 +1,6 @@
 # Similarity-project
 **Guideline**
+
     1. Read Description/Case 2 \
     2. Read Description/Input constraints for case 2 \
     3. Read Run commands/Case 2/Tone output \
