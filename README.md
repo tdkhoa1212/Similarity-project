@@ -10,19 +10,19 @@
 ### Case 2
 ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/case_2.png)
 
-#### input
-##### Train data: 
-Path: ./wav/train_wav/ \
-Constrain: 
+### input
+#### Train data: 
+**Path:** ./wav/train_wav/ \
+**Constrain:** 
     - only one certain Frequency \
     - Amplitude: 0.8 \
     - length: > 1s 
 
 
 
-##### Test data:
-Path: ./wav/test_wav/ \
-Constrain:  \
+#### Test data:
+**Path:** ./wav/test_wav/ \
+**Constrain:**  \
     - any frequencies in train data \
     - Amplitude: any \
     - length of tones: any \
