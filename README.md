@@ -6,7 +6,7 @@
     3. Read Run commands/Case 2/Tone output 
 ## 2. Description
 ### 2.1. Case 1
-- In the phase 1: audio files are converted to texts
+- In the phase 1: Audio files are converted to texts
     - Example: apple_and_lemon.wav transformed to "apple and lemon"
 - In the phase 2: Jaccard similarity method is used to score the similarity between two texts
 (https://newscatcherapi.com/blog/ultimate-guide-to-text-similarity-with-python)
@@ -20,9 +20,9 @@
 **Path:** \
 ./wav/train_wav/ \
 **Constraint:** \
-    - only one certain Frequency \
+    - Only one certain Frequency \
     - Amplitude: 0.8 \
-    - length: > 1s 
+    - Length: > 1s 
 
 
 
@@ -30,10 +30,10 @@
 **Path:** \
 ./wav/test_wav/ \
 **Constraint:**  \
-    - any frequencies in train data \
-    - Amplitude: any \
-    - length of tones: any \
-    - length of silence: more than cutting_time in Parameter (can be 0.2) 
+    - Any frequencies in train data \
+    - Amplitude: Any \
+    - Length of tones: Any \
+    - Length of silence: More than cutting_time in Parameter (can be 0.2) 
 
 
 ## 3. Run commands
