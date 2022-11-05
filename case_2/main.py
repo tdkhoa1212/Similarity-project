@@ -6,7 +6,7 @@ from get_data import get_test_data, get_train_data
 @click.command()
 # ******************************Enter your expected information *****************************
 @click.option('--train_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/train_wav', help='direction of .wav train file')
-@click.option('--test_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/input_wav/440hz_500hz_540hz.wav', help='direction of .wav test file')
+@click.option('--test_path', default='/home/ubuntu-pc/Enrico_boss/Similarity-project/wav/input_wav/600_640_700_08.wav', help='direction of .wav test file')
 @click.option('--cutting_time', default=0.2, type=float, help='time of cut segments in test audio.')
 def compare(train_path, test_path, cutting_time):
     '''
@@ -24,10 +24,11 @@ def compare(train_path, test_path, cutting_time):
     output_name = []
     for name in train_data:
         value_train = train_data[name]
-        similality = np.array([1-spatial.distance.cosine(i, value_train) for i in test_data]) # values of similarity in test segments
-        if True in (similality>0.8):
+        similality = np.array([1-spatial.distance.cosine(i, value_train) for i in test_data]) # similarity between test and train segments 
+        # print(name, similality, '\n')
+        if True in (similality>0.25):
             output_name.append(name)
-    print('='*40 + f'output: {output_name}')
+    print('='*40 + f'\nOutput: {output_name}\n'+'='*40)
 
 if __name__ == '__main__':
     compare()

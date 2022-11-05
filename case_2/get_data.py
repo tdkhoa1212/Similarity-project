@@ -15,7 +15,7 @@ def get_train_data(train_path):
         y = PCA_transform(x, sample_rate)
         all_y[name] = y
 
-    print('-'*40 + f'\nNumber of train tones: {len(all_y)}\n'+'-'*40)
+    print('-'*40 + f'\nNumber of train tones: {len(all_y)}\n'+'-'*40 + '\n')
     return all_y
 
 def get_test_data(test_path, cutting_time):
