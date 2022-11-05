@@ -12,8 +12,8 @@
 
 ### input
 #### Train data: 
-**Path:** ./wav/train_wav/ \
-**Constrain:** 
+*Path:* ./wav/train_wav/ \
+*Constrain:* 
     - only one certain Frequency \
     - Amplitude: 0.8 \
     - length: > 1s 
@@ -21,8 +21,8 @@
 
 
 #### Test data:
-**Path:** ./wav/test_wav/ \
-**Constrain:**  \
+*Path:* ./wav/test_wav/ \
+*Constrain:*  \
     - any frequencies in train data \
     - Amplitude: any \
     - length of tones: any \
