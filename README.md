@@ -42,6 +42,7 @@
 
 #### Case 2
 **Plot spectrogram**
+
     %cd Similarity-project/case_2
     python plot_extraction.py "the first .wav file path" "the second .wav file path" "the saving path of the demonstration photo"
 
