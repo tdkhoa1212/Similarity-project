@@ -18,7 +18,7 @@
 ### Input constraints for case 2
 #### Train data: 
 *Path:* ./wav/train_wav/ \
-*Constraint:* 
+*Constraint:* \
     - only one certain Frequency \
     - Amplitude: 0.8 \
     - length: > 1s 
@@ -52,7 +52,7 @@
     %cd Similarity-project/case_2
     python main.py ./train_wav ./test_wav/"test file" 0.2
 
-./train_wav: Direction of the .wav train folder \
-./test_wav/"test file": Direction of a .wav test file \
-0.2: Time of cut segments in test audio \
+./train_wav: <sub> Direction of the .wav train folder <sub> \
+./test_wav/"test file": <sub> Direction of a .wav test file <sub> \
+0.2: <sub> Time of cut segments in test audio <sub> \
 
