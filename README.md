@@ -1,10 +1,10 @@
 # Similarity-project
-**Guideline**
+## 1. Guideline
 
     1. Read Description/Case 2 
     2. Read Description/Input constraints for case 2 
     3. Read Run commands/Case 2/Tone output 
-## Description
+## 2. Description
 ### Case 1
 - In the phase 1: audio files are converted to texts
     - Example: apple_and_lemon.wav transformed to "apple and lemon"
@@ -36,7 +36,7 @@
     - length of silence: more than cutting_time in Parameter (can be 0.2) 
 
 
-## Run commands
+## 2. Run commands
     pip install -r requirements.txt
 
 #### Case 1
