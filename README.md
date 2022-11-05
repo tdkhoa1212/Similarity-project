@@ -1,8 +1,8 @@
 # Similarity-project
 **Guideline**
-    1. Read Description/Case 2
-    2. Read Description/Input constrain for case 2
-    3. Read Run commands/Case 2/Tone output
+    1. Read Description/Case 2 \
+    2. Read Description/Input constrain for case 2 \
+    3. Read Run commands/Case 2/Tone output \
 ## Description
 ### Case 1
 - In the phase 1: audio files are converted to texts
