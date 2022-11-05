@@ -1,7 +1,7 @@
 # Similarity-project
 **Guideline**
     1. Read Description/Case 2 \
-    2. Read Description/Input constrain for case 2 \
+    2. Read Description/Input constraints for case 2 \
     3. Read Run commands/Case 2/Tone output \
 ## Description
 ### Case 1
@@ -14,10 +14,10 @@
 ### Case 2
 ![alt text](https://github.com/tdkhoa1212/Similarity-project/blob/main/images/case_2.png)
 
-### Input constrain for case 2
+### Input constraints for case 2
 #### Train data: 
 *Path:* ./wav/train_wav/ \
-*Constrain:* 
+*Constraint:* 
     - only one certain Frequency \
     - Amplitude: 0.8 \
     - length: > 1s 
@@ -26,7 +26,7 @@
 
 #### Test data:
 *Path:* ./wav/test_wav/ \
-*Constrain:*  \
+*Constraint:*  \
     - any frequencies in train data \
     - Amplitude: any \
     - length of tones: any \
